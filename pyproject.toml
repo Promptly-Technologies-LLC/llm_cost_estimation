@@ -13,6 +13,7 @@ tiktoken = "^0.4.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.3.0"
+mkdocs = "^1.4.3"
 
 [build-system]
 requires = ["poetry-core"]
