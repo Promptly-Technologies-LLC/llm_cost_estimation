@@ -132,3 +132,29 @@ estimated_cost = estimate_cost(chat_history, model)
 ```
 
 In this case, the function will calculate the cost based on the structure of chat messages. It's important to remember to replace the sample code with your actual prompt/chat history and model as necessary.
+
+## Contributing
+
+We welcome contributions from the community! The `llm-cost-estimation` library is open source, and we encourage you to help us improve it.
+
+Currently, the `models` object supports only a subset of OpenAI models. We recognize the need to expand this list to include more models not just from OpenAI, but from other vendors as well. If you're familiar with a model that isn't currently supported, we'd love your help in integrating it into the library. The library could also use some unit tests.
+
+Here's how you can contribute:
+
+1. **Fork the Repository:** Start by forking the `llm-cost-estimation` repository.
+
+2. **Clone the Forked Repository:** Clone the forked repository to your local machine and switch into its directory.
+
+3. **Create a New Branch:** It's best practice to create a new branch for each feature or bug fix you're working on. This keeps your changes organized and separated from the `main` branch.
+
+4. **Make Your Changes:** Make the necessary changes in the new branch. This could involve adding new features, fixing bugs, improving documentation, or enhancing existing code.
+
+5. **Test Your Changes:** Make sure your changes do not break any existing functionality. Add new tests if necessary.
+
+6. **Commit and Push Your Changes:** Once you're happy with your changes, commit them and push the branch to your forked repository on GitHub.
+
+7. **Create a Pull Request:** Finally, navigate to the original `llm-cost-estimation` repository and create a pull request. In the pull request description, explain the changes you made, why you believe they're necessary, and any other information you think might be helpful.
+
+After you've submitted your pull request, the maintainers of the `llm-cost-estimation` library will review your changes. You might be asked to make some additional modifications or provide more context about your changes. Once everything is approved, your changes will be merged into the `main` branch.
+
+We value all our contributors and are grateful for any time you can spare to help improve `llm-cost-estimation`. Happy coding!
