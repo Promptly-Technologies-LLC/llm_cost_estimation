@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "llm-cost-estimation"
+version = "0.1.0"
+description = ""
+authors = ["Christopher Carroll Smith <75859865+chriscarrollsmith@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "llm_cost_estimation"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+tiktoken = "^0.4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
