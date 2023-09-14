@@ -50,10 +50,14 @@ import pandas as pd
 models_df = pd.DataFrame(models)
 
 # Display the DataFrame
-print(models_df)
+models_df.style\
+    .hide(axis="index")\
+    .set_properties(**{'max-width': '80px'})\
+    .set_properties(subset=['description'], **{'max-width': '280px'})\
+    .set_table_styles([dict(selector="th",props=[('max-width', '85px'),('word-break', 'break-all')])])
 ```
 
-This will display the information in a tabular format, with each row representing a different model and each column representing a different attribute of the model (name, completion cost per token, etc.).
+This will display the information in an attractive tabular format, with each row representing a different model and each column representing a different attribute of the model (name, completion cost per token, etc.).
 
 ## Using the `count_tokens` Function
 
