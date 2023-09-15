@@ -2,6 +2,14 @@
 
 `llm-cost-estimation` is a Python library developed to aid in estimating the costs associated with Large Language Model (LLM) API calls.
 
+## Installation
+
+To install the `llm-cost-estimation` library, you can use pip:
+
+```bash
+pip install -U llm-cost-estimation
+```
+
 ## Key Features
 
 - `models`: Contains essential details about various LLMs. This includes:
@@ -9,7 +17,7 @@
     - Cost per completion token
     - Model description
     - Maximum tokens
-- `count_token`: A utility function to count the tokens present in a specific prompt or chat history using a given model's encoding system.
+- `count_tokens`: A utility function to count the tokens present in a specific prompt or chat history using a given model's encoding system.
 - `estimate_costs`: A utility function to provide cost estimates for API calls to specified LLMs, based on:
     - Length of a text prompt
     - Average length of messages in a chat history

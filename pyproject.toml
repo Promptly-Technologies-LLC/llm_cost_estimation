@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "llm-cost-estimation"
-version = "0.1.2"
+version = "0.1.3"
 description = ""
 authors = ["Christopher Carroll Smith <75859865+chriscarrollsmith@users.noreply.github.com>"]
 readme = "README.md"
