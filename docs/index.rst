@@ -1,7 +1,7 @@
-llm-cost-estimation
+llm_cost_estimation
 ===================
 
-``llm-cost-estimation`` is a Python library developed to aid in
+``llm_cost_estimation`` is a Python library developed to aid in
 estimating the costs associated with Large Language Model (LLM) API
 calls.
 
@@ -16,7 +16,7 @@ Key Features
    -  Model description
    -  Maximum tokens
 
--  ``count_token``: A utility function to count the tokens present in a
+-  ``count_tokens``: A utility function to count the tokens present in a
    specific prompt or chat history using a given model’s encoding
    system.
 -  ``estimate_costs``: A utility function to provide cost estimates for
@@ -31,14 +31,14 @@ costs when integrating and working with LLMs.
 Using the ``models`` Object
 ---------------------------
 
-The ``models`` object in the ``llm-cost-estimation`` library provides a
+The ``models`` object in the ``llm_cost_estimation`` library provides a
 list of dictionaries, each representing a different OpenAI model with
 key details such as costs per token, model description, maximum tokens,
 and more.
 
 To use this ``models`` object, you should follow these steps:
 
-1. Import the ``models`` object from the ``llm-cost-estimation``
+1. Import the ``models`` object from the ``llm_cost_estimation``
    library.
 
 .. code:: python
@@ -81,7 +81,7 @@ attribute of the model (name, completion cost per token, etc.).
 Using the ``count_tokens`` Function
 -----------------------------------
 
-The ``count_tokens`` function in the ``llm-cost-estimation`` library
+The ``count_tokens`` function in the ``llm_cost_estimation`` library
 enables users to count the number of tokens in a string or list of chat
 messages using the encoding for a specified Large Language Model (LLM).
 It also provides an estimation for the number of tokens a completion
@@ -113,7 +113,7 @@ Here’s an example of how to use the ``count_tokens`` function:
 In this code snippet:
 
 -  We import the ``count_tokens`` function from the
-   ``llm-cost-estimation`` library.
+   ``llm_cost_estimation`` library.
 -  We define a text string and the model name.
 -  We call the ``count_tokens`` function with the text and the model
    name.
@@ -139,7 +139,7 @@ history and model where necessary.
 Using the ``estimate_cost`` Function
 ------------------------------------
 
-The ``estimate_cost`` function in the ``llm-cost-estimation`` library is
+The ``estimate_cost`` function in the ``llm_cost_estimation`` library is
 a utility that can be used to calculate the cost of requesting a
 completion from a Large Language Model (LLM) given a specific input text
 or chat history. The function makes use of the token counting feature
@@ -188,7 +188,7 @@ sample code with your actual prompt/chat history and model as necessary.
 Contributing
 ------------
 
-We welcome contributions from the community! The ``llm-cost-estimation``
+We welcome contributions from the community! The ``llm_cost_estimation``
 library is open source, and we encourage you to help us improve it.
 
 Currently, the ``models`` object supports only a subset of OpenAI
@@ -200,7 +200,7 @@ tests.
 
 Here’s how you can contribute:
 
-1. **Fork the Repository:** Start by forking the ``llm-cost-estimation``
+1. **Fork the Repository:** Start by forking the ``llm_cost_estimation``
    repository.
 
 2. **Clone the Forked Repository:** Clone the forked repository to your
@@ -222,16 +222,16 @@ Here’s how you can contribute:
    GitHub.
 
 7. **Create a Pull Request:** Finally, navigate to the original
-   ``llm-cost-estimation`` repository and create a pull request. In the
+   ``llm_cost_estimation`` repository and create a pull request. In the
    pull request description, explain the changes you made, why you
    believe they’re necessary, and any other information you think might
    be helpful.
 
 After you’ve submitted your pull request, the maintainers of the
-``llm-cost-estimation`` library will review your changes. You might be
+``llm_cost_estimation`` library will review your changes. You might be
 asked to make some additional modifications or provide more context
 about your changes. Once everything is approved, your changes will be
 merged into the ``main`` branch.
 
 We value all our contributors and are grateful for any time you can
-spare to help improve ``llm-cost-estimation``. Happy coding!
+spare to help improve ``llm_cost_estimation``. Happy coding!
