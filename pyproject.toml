@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "llm_cost_estimation"
-version = "0.1.4"
+version = "0.1.6"
 description = "A Python library for estimating the cost of LLM API calls"
 authors = ["Christopher Carroll Smith <75859865+chriscarrollsmith@users.noreply.github.com>"]
 readme = "README.md"
